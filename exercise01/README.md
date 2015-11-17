@@ -135,6 +135,6 @@ Open [Android Studio](https://developer.android.com/sdk/index.html) and the proj
 
 Everything has been set up for you to focus on the problem. We offer you some test cases that may cover most of the problems.
 
-Though, you can modify them or improve them if you need. In that case, explain your decisions to do so.
+Though, you can modify or improve them if you need to. In that case, explain your decisions to your interviewer.
 
 If the application does not contain already a JUNIT configuration, set it up or ask your interviewer to help you out.
