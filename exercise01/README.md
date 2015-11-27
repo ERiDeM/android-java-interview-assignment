@@ -127,8 +127,8 @@ ready!
 
 Open [Android Studio](https://developer.android.com/sdk/index.html) and the project <code>assignmentTodo</code>. You will find two important files for you:
 
-- <code>main/java/com.example.Main</code> which contains the method <code>public String runCommand(@NonNull String text)</code> which is your start point.
-- <code>main/java/com.example.Main</code> which contains the method <code>public String runCommand(@NonNull String text)</code> which is your start point.
+- <code>main/java/com.example.Main</code> which contains the method <code>public String runCommand(String text)</code> which is your start point.
+- <code>main/java/com.example.Main</code> which contains the method <code>public String runCommand(String text)</code> which is your start point.
 - <code>main/java/com.example.Messages</code> which contains a set of constants for the messages to avoid typos during the assignment.
 
 ***NOTE***: <code>test/java/com.example.Main.runCommand</code> ***IS YOUR START POINT!***
