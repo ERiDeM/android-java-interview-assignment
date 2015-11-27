@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.helpers.Assignment;
+
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -22,7 +24,7 @@ public class AssignmentTest {
     public void test_executeCommand_init() throws Exception {
         String response = assignment
                 .execComm("init").getLastResult();
-        Assert.assertEquals(Messages.READY_MESSAGE, response, "Command 'init' should return 'init'");
+        Assert.assertEquals(Messages.READY_MESSAGE, response);
     }
 
     @Test

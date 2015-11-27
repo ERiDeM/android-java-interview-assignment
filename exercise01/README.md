@@ -125,11 +125,13 @@ ready!
 
 # Where to start
 
-Open [Android Studio](https://developer.android.com/sdk/index.html) and the project <code>assignmentTodo</code>. You will find two files:
+Open [Android Studio](https://developer.android.com/sdk/index.html) and the project <code>assignmentTodo</code>. You will find two important files for you:
 
-- <code>test/java/com.example.AssignmentTest</code> which contains a set of test with examples to test the calculator main point.
-- <code>main/java/com.example.Assignment</code> a main class that contains a method <code>execComm</code> where all commands, as text, will be passed.
-- <code>main/java/com.example.Assignment</code> a main class that contains a method <code>runCommand</code> where all commands, as text, will be passed. ***THIS IS YOUR START POINT!***
+- <code>main/java/com.example.Main</code> which contains the method <code>public String runCommand(@NonNull String text)</code> which is your start point.
+- <code>main/java/com.example.Main</code> which contains the method <code>public String runCommand(@NonNull String text)</code> which is your start point.
+- <code>main/java/com.example.Messages</code> which contains a set of constants for the messages to avoid typos during the assignment.
+
+***NOTE***: <code>test/java/com.example.Main.runCommand</code> ***IS YOUR START POINT!***
 
 ### Be quick, run the tests
 

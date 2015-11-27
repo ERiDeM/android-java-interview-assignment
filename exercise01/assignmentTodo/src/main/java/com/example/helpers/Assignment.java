@@ -1,6 +1,13 @@
-package com.example;
+package com.example.helpers;
+
+import com.example.Main;
 
 public class Assignment {
+
+    /**
+     * Main class for the assignment
+     */
+    private Main mMain;
 
     /**
      * Save the result of the latest command executed
@@ -8,6 +15,13 @@ public class Assignment {
     private String mLastResult;
 
     //region Getters and Setters
+
+    protected Main getMain() {
+        if (mMain == null) {
+            mMain = new Main();
+        }
+        return mMain;
+    }
 
     public String getLastResult() {
         if (mLastResult == null) {
@@ -36,7 +50,7 @@ public class Assignment {
     public Assignment execComm(String text) {
         if (text != null) {
             text = text.trim();
-            String result = runCommand(text);
+            String result = getMain().runCommand(text);
             setLastResult(result);
         } else {
             setLastResult(null);
@@ -50,20 +64,4 @@ public class Assignment {
     public void clean() {
         setLastResult(null);
     }
-
-    /**
-     * METHOD TO IMPLEMENT ON THIS ASSIGNMENT.
-     * TAKE YOUR OWN DECISIONS AND DISCUSS WITH YOUR INTERVIEWER.
-     * @param text is the command to execute
-     * @return the result of the command to execute
-     */
-    private String runCommand(String text) {
-        /*
-         * WE NEED TO FILL THIS GAP!
-         */
-
-        return "2";
-    }
-
-
 }
