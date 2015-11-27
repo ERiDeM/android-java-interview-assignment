@@ -82,9 +82,9 @@ ready!
 need to init!
 ```
 
-### Operations: Sen
+### Operations: Sin
 
-In order to do the sen of a degree number, we will use the following command:
+In order to do the sin of a degree number, we will use the following command:
 
 ```
 > do sin A
